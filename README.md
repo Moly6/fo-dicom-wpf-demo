@@ -1,8 +1,10 @@
 # DICOM 胶片查看Demo
 
 一个基于 WPF 和 Fellow Oak DICOM (fo-dicom) 库的 DICOM 医疗影像查看和打印的Demo。
+
 - ` 网格布局 `
 ![image-网格](images/网格.png)
+
 - ` 单张 `
 ![image-单张](images/单张.png)
 
