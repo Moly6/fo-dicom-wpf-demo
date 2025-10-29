@@ -46,7 +46,7 @@ namespace DicomFilmPrinter
                 _loadedImages = Application.Current.Dispatcher.Invoke(
                     () =>
                         DicomService.LoadDicomFilesAsBitmapSources(
-                            openFileDialog.FileNames.ToList()
+                            openFileDialog.FileNames.OrderBy(f => f).ToList()
                         )
                 );
                 ImagesPanel.ItemsSource = _loadedImages;
